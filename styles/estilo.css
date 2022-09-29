@@ -55,7 +55,6 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  width: 60%;
 }
 .informacion .carousel .carousel-caption {
   padding-bottom: 0px;
@@ -183,7 +182,7 @@
   box-shadow: 13px 15px 37px black;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .seguinos {
     font-size: smaller;
   }
@@ -192,5 +191,10 @@
   }
   .lugares p {
     font-size: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .carousel {
+    width: 60%;
   }
 }/*# sourceMappingURL=estilo.css.map */
