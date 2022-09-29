@@ -181,6 +181,7 @@
   transform: scale(1.1);
   box-shadow: 13px 15px 37px black;
 }
+
 @media screen and (max-width: 480px) {
   .seguinos {
     font-size: smaller;
@@ -196,4 +197,8 @@
   .carousel {
     width: 60%;
   }
+}
+.form-label {
+  text-shadow: 1px 0 0 rgb(249, 248, 248);
+  font-weight: 300px;
 }/*# sourceMappingURL=estilo.css.map */
