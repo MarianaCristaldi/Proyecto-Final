@@ -14,4 +14,8 @@
         width: 60%;
     }
 }
-
+@media screen and (max-width: 440px) {
+    .principal .tarjeta {
+        max-width: 100% ;
+}
+}
