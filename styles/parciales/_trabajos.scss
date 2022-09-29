@@ -1,0 +1,46 @@
+.conteiner {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Cairo;
+
+    .lugares {
+        width: 400px;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+        margin: 20px auto;
+        border-radius: 20px;
+        box-shadow: 5px 8px 12px black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .lugares img {
+        width: auto;
+        height: auto;
+        max-width: 400px;
+        max-height: 200px;
+    }
+    
+    .lugares p {
+        font-size: 1rem;
+        color: white;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+    .lugares:hover {
+        transform: scale(1.1);
+        box-shadow: 13px 15px 37px black;
+    }
+}

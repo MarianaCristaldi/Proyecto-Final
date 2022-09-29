@@ -1,0 +1,15 @@
+.contenedor {
+    background-image: url(../imagenes/Automatización.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+    .card {
+        background: rgba(0, 0, 0, .4);
+        color: white;
+        font-family: Raleway Bold;
+        text-align: center;
+        border-radius: 15px;
+        font-family: Dosis;
+    }
+}

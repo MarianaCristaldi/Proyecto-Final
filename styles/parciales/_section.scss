@@ -1,0 +1,30 @@
+.informacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+    .carousel {
+        padding: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        width: 60%;
+
+        .carousel-caption {
+            padding-bottom: 0px;
+
+            .texto {
+                margin-bottom: 0px;
+                font-family: Raleway Bold;
+                font-size: larger;
+                text-shadow: 2px 0 0 black;
+            }
+        }
+        .d-block.w-100 {
+            border-radius: 5px;
+        }
+    }
+}
