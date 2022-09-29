@@ -181,8 +181,7 @@
   transform: scale(1.1);
   box-shadow: 13px 15px 37px black;
 }
-
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .seguinos {
     font-size: smaller;
   }
@@ -193,7 +192,7 @@
     font-size: 2rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .carousel {
     width: 60%;
   }
